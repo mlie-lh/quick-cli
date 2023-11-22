@@ -1,0 +1,27 @@
+{
+  "name": "@mlie/quick-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "quick-cli": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "fs-extra": "^11.1.1",
+    "gulp": "^4.0.2",
+    "gulp-util": "~3.0.0",
+    "inquirer": "^9.2.12",
+    "path": "^0.12.7",
+    "archiver": "^5.0.2",
+    "async": "~0.9.0",
+    "object-assign": "~0.3.1",
+    "parents": "~1.0.0",
+    "ssh2": "~0.6.1",
+    "through2": "~0.4.2"
+  }
+}
